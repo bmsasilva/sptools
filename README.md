@@ -35,8 +35,8 @@ plot(SP)
 SPs = splitLines(SP, 0.4, plot.results = T)
 ```
 **linedf2SpatialLines** converts a dataframe with IDs and coordinates into a SpatialLines object.    
-**SpatialLines** performes the reverse operation, extracting the coordinates and IDs of each lines of a SpatialLines object and put into a dataframe.    
-**createBox** and **createCircle** create a rectangle and a polygon approximating a circle in the form of a SpatialPolugons object.    
+**SpatialLines2df** performes the reverse operation, extracting the coordinates and IDs of each lines of a SpatialLines object and put into a dataframe.    
+**createBox** and **createCircle** create a rectangle and a polygon approximating a circle in the form of a SpatialPolygons object.    
 
 #### Licenses
 
