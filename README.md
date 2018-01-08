@@ -32,7 +32,7 @@ l1 = Line(c1)
 sl = list(Lines(list(l1), ID = 1))
 SP = SpatialLines(sl)
 plot(SP)
-#SPs = splitLines(SP, 0.4, plot.results = T)
+SPs = splitLines(SP, 0.4, plot.results = T)
 ```
 **linedf2SpatialLines** converts a dataframe with IDs and coordinates into a SpatialLines object.    
 **SpatialLines** performes the reverse operation, extracting the coordinates and IDs of each lines of a SpatialLines object and put into a dataframe.    
